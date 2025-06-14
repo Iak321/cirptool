@@ -1,0 +1,22 @@
+.dashboard-wrapper {
+  display: flex;
+  height: 100vh;
+}
+
+.dashboard-content {
+  margin-left: 240px; /* Ensure content respects sidebar width */
+  padding: 30px;
+  overflow-y: auto;
+}
+
+.dashboard-content h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.dashboard-content p {
+  font-size: 1.1em;
+  margin-bottom: 30px;
+  text-align: center;
+}

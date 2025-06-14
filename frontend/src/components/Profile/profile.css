@@ -1,0 +1,89 @@
+.profile-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Profile Left Section */
+.profile-info {
+  max-width: 60%;
+}
+
+.profile-info h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 20px;
+}
+
+.profile-info p {
+  font-size: 1.1rem;
+  color: #4b5563;
+  margin-bottom: 12px;
+}
+
+/* Profile Action Links */
+.profile-actions a {
+  font-size: 1rem;
+  color: #1e40af;
+  text-decoration: none;
+  margin-right: 15px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.profile-actions a:hover {
+  color: #1d4ed8;
+}
+
+/* Profile Image (Circle) */
+.profile-image-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #e5e7eb;
+  background-image: url("https://www.w3schools.com/w3images/avatar2.png"); /* Placeholder image */
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  border: 3px solid #1e40af;
+  transition: transform 0.3s ease;
+}
+
+.profile-image:hover {
+  transform: scale(1.05);
+}
+
+.profile-image-edit {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background-color: #1e40af;
+  color: white;
+  font-size: 0.8rem;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+}
+
+.profile-image-wrapper:hover .profile-image-edit {
+  display: block;
+}
+
+.profile-container:hover .profile-image-wrapper .profile-image {
+  border-color: #1d4ed8;
+}

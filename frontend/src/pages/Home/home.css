@@ -1,0 +1,57 @@
+.home-container {
+  font-family: "Segoe UI", sans-serif;
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: #f1f1f1;
+  border-radius: 20px;
+}
+
+.hero-title {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+.cta-button {
+  background: #16a34a;
+  color: white;
+  padding: 0.75rem 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  margin-top: -2rem;
+}
+
+.feature {
+  padding: 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  background: #f9fafb;
+}
+
+.feature h2 {
+  margin-bottom: 0.5rem;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 4rem;
+  color: #888;
+}

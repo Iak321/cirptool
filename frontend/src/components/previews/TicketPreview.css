@@ -1,0 +1,26 @@
+.ticket-preview {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.ticket-preview h3 {
+  margin-bottom: 1rem;
+}
+
+.preview-field {
+  margin-bottom: 0.5rem;
+}
+
+.preview-section {
+  margin-top: 1rem;
+}
+
+.preview-section ul {
+  margin-left: 1.5rem;
+  list-style-type: disc;
+}

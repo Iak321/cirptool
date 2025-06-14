@@ -1,0 +1,156 @@
+/* Reports Container */
+.reports-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Header */
+.reports-container h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Button Styles */
+.reports-btn-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.reports-btn-container button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  background-color: #1e40af;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reports-btn-container button:hover {
+  background-color: #1d4ed8;
+}
+
+/* Pie Chart Container */
+.pie-chart-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.pie-chart {
+  flex: 1;
+  max-width: 45%;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Ticket List */
+.ticket-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.ticket-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin-bottom: 12px;
+  background-color: #f9fafb;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ticket-list li.done {
+  background-color: #d1fae5; /* Greenish background for done tickets */
+}
+
+.ticket-list button {
+  padding: 6px 12px;
+  margin-left: 10px;
+  font-size: 0.9rem;
+  background-color: #e5e7eb;
+  color: #1e293b;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100px;
+  text-align: center;
+}
+
+.ticket-list button:hover {
+  background-color: #d1d5db;
+}
+
+.pie-chart-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.pie-chart {
+  width: 45%;
+  height: 300px; /* Ensure this is large enough to show the pie chart */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ticket-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.ticket-list li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.ticket-list button {
+  margin-left: 10px;
+}
+
+.reports-btn-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #1976d2;
+  transform: scale(1.05);
+}
+
+.btn.active {
+  background-color: #4caf50;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.reports-container {
+  padding: 20px;
+}
